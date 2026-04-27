@@ -80,7 +80,8 @@
   .product-group__p {
     font-size: 12px;
     margin-bottom: 18px;
-    max-height: 78px;
+    width: 100%;
+    max-height: 100px;
     overflow: hidden;
     text-align: justify;
     text-justify: inter-word;
@@ -108,9 +109,13 @@
   }
 
   .product-group__p {
-    font-size: 8px;
-    margin-bottom: 16px;
-    width: 65%;
+    font-size: 12px;
+    margin-bottom: 18px;
+    width: 100%;
+    max-height: 100px;
+    overflow: hidden;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
 }

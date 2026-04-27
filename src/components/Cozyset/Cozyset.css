@@ -26,22 +26,40 @@
   object-fit: cover;
   border-radius: 12px;
 }
+
 .cozyset__label {
   margin-top: 12px;
   font-size: 16px;
 }
+
 @media (max-width: 768px) {
   .cozyset__container {
     flex-direction: column;
   }
 
+  .cozyset__label {
+    max-height: 40px;
+    overflow: hidden;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
   .cozyset__image {
     height: 180px;
   }
+
+  .cozyset__title {
+    text-align: center;
+  }
 }
+
 @media (max-width: 340px) {
   .cozyset__container {
     flex-direction: column;
+  }
+
+  .cozyset__title {
+    text-align: center;
   }
 
   .cozyset__image {

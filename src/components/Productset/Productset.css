@@ -9,7 +9,8 @@
   font-weight: bold;
   margin-bottom: 24px;
 }
-.productset__p{
+
+.productset__p {
   font-size: 14px;
   margin-bottom: 20px;
 
@@ -17,8 +18,9 @@
 
 .productset__container {
   position: relative;
-  height: 600px; 
+  height: 600px;
 }
+
 .productset__item {
   position: absolute;
   background-size: cover;
@@ -72,7 +74,13 @@
     width: 100%;
     height: 200px;
   }
-  .productset__p{
+
+  .productset__title {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .productset__p {
     font-size: 12px;
     margin-bottom: 12px;
     max-height: 78px;
@@ -88,13 +96,14 @@
   }
 
   .productset__title {
-    font-size: 14px;
     margin-bottom: 12px;
+    text-align: center;
   }
-  .productset__p{
+
+  .productset__p {
     font-size: 12px;
     margin-bottom: 12px;
-    
+
     max-height: 78px;
     overflow: hidden;
     text-align: justify;
