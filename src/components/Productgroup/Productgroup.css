@@ -77,6 +77,9 @@
     height: 200px;
   }
 
+  .product-group__title {
+    text-align: center;
+  }
   .product-group__p {
     font-size: 12px;
     margin-bottom: 18px;
@@ -95,8 +98,7 @@
   }
 
   .product-group__title {
-    font-size: 14px;
-    margin-bottom: 12px;
+    text-align: center;
   }
 
   .product-group__container {
